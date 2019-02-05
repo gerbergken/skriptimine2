@@ -1,0 +1,14 @@
+    1  apt-get update 
+    2  su
+    3  mkdir /home/user/skriptimine
+    4  cd /home/user/skriptimine
+    5  git config --global user.name "ken gerberg"
+    6  git config --global user.email gerberg.ken@khk.ee
+    7  git config --global core.edidor nano
+    8  git init
+    9  mkdir /praks1
+   10  su
+   11  exit
+   12  mkdir /home/user/skriptimine/praks1
+   13  touch /home/user/skriptimine/praks1/git_kasutamine
+   14  history > /home/user/skriptimine/praks1/git_kasutamine
