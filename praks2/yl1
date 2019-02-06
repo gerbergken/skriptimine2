@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#kasutaja tervitus
+#
+#scripti algus
+#
+#echo "Tere User!"
+#
+echo -n "Tere "
+echo -n `whoami | cut -c1 | tr [:lower:] [:upper:]`
+echo -n `whoami | cut -c2-`
+echo "!"
+#
+# lõpp
