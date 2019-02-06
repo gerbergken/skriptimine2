@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#minu andmed ja muljed ainest
+echo "ken gerberg"
+echo "TI18"
+echo "skriptimine tundub põnev"
+
