@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# kuupäeva ja aja info
+#
+#skripti algus
+#
+echo
+date +"Today is %A, %d, %Y"
+date +"Time is %H:%M"
+echo
+echo -n "calendar of "
+echo `date +"%B %Y"`
+cal | tail -n 7
+#
+#lõpp
