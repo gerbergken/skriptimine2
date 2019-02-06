@@ -1,0 +1,5 @@
+#!/bin/bash
+# väljastab arvuti nime ja töö aja
+echo -n `hostname`
+echo -n " "
+echo  `uptime | cut -f1 -d","`
