@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#bussi ekskursioonide korraldaja abi programm
+#
+echo "sisesta inimeste arv"
+read inimeste arv
+echo "sisesta bussi kohtade arv"
+read bussi kohtade arv
+echo "$bussi $inimeste"
