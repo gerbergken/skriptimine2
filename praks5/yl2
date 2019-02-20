@@ -1,0 +1,10 @@
+#!/bin/bash
+# reisi aja kalkulaator
+echo "P - 0, E - 1, T - 2, K - 3, N - 4, R - 5, L - 6"
+echo "mis päeval ära sõidad"
+read algus
+echo "kui kaua reisi oled"
+read kestlus
+reisi_kestlus=`expr $kestlus % 7`
+tagasi=$(($algus + $reisi_kestlus))
+echo "oled tagasi päeval $tagasi" 
