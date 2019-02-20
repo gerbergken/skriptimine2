@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#hüpotenuusi kalkulaator
+#
+echo "sisesta a külje pikkus"
+read a
+echo "sisesta b külje pikkus"
+read b
+#muutimine ruutudeks
+a2=`echo "scale=2;$a^2" | bc`
+b2=`echo "scale=2;$b^2" | bc`
+c=`echo "scale=2;$a2+$b2" | bc`
+c2=`echo "scale=2;sqrt($c)" |bc`
+echo "c=$c2"
