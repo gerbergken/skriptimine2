@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#kolmnurga pindala kalkulaator
+#
+echo "sisesta a külje pikkus"
+read a
+echo "sisesta b külje pikkus"
+read b
+echo "sisesta c küjle pikkus"
+read c
+p=`echo "scale=2;($a+$b+$c)/2" | bc`
+pindala=`echo "scale=2;sqrt($p*($p-$a)*($p-$b)*($p-$c))" | bc`
+echo pindala = $pindala
