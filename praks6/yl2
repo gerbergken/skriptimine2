@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#bussi ekskursioonide korraldaja abi programm
+#
+echo  "sisesta inimeste arv"
+read inimeste 
+echo  "sisesta bussi kohtade arv"
+read bussi
+a=`expr $inimeste / $bussi`
+b=`expr $inimeste % $bussi`
+c=`expr $a + 1`
+if test $b -eq 0
+then
+	echo "vaja läheb $a bussi"
+else
+	echo "vaja läheb $c bussi"
+fi
